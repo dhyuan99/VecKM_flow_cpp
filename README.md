@@ -6,7 +6,7 @@
 ## Summary
 The repository contains C++/CUDA implementation of [VecKM_flow](https://github.com/dhyuan99/VecKM_flow), an event-based normal flow estimator. It contains multiple functions:
 1. `SliceNormalFlowEstimator::local_events_encoding`: compute per-event features given a slice of events. The feature is computed from the spatiotemporal neighborhoods of the eventt.
-2. `SliceNormalFlowEstimator::predict_flows`: compute per-event normal flow given a slice of events. It first computes per-event feature and then maps the features to predicted normal flows using a two-layer neural network.
+2. `SliceNormalFlowEstimator::predict_flows`: compute per-event normal flow given a slice of events. It first computes per-event feature and then maps the features to predicted normal flows using a two-layer neural network. The flow is an instantaneous velocity with unit `raw pixels per 1/60 seconds`.
 3. `_binding.cpp`, `_setup.py` provide a python interface so that the C++/CUDA implementation can be used in python.
 
 ## To run the inference in C++:
