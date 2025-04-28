@@ -1,11 +1,5 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;"> A Real-Time Event-Based Normal Flow Estimator </h1>
 
-<p align='center' style="text-align:center;font-size:1.25em;">
-    <a href="https://www.cs.umd.edu/~dhyuan" target="_blank" style="text-decoration: none;">Dehao Yuan</a>&nbsp;&nbsp;
-    <a href="http://users.umiacs.umd.edu/~fer/" target="_blank" style="text-decoration: none;">Cornelia Fermüller</a>&nbsp;&nbsp
-    <a href="https://arxiv.org/abs/2412.11284" target="_blank" style="text-decoration: none;">[Arxiv]</a> &nbsp;&nbsp
-</p>
-
 ![](./assets/demo.gif)
 ## Summary
 The repository contains C++/CUDA implementation of [VecKM_flow](https://github.com/dhyuan99/VecKM_flow), an event-based normal flow estimator. It contains multiple functions:
