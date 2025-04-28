@@ -1,6 +1,8 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;"> A Real-Time Event-Based Normal Flow Estimator </h1>
 
 ![](./assets/demo.gif)
+
+*Many thanks to [Levi Burner](https://www.aftersomemath.com/) for setting up the demo.*
 ## Summary
 The repository contains C++/CUDA implementation of [VecKM_flow](https://github.com/dhyuan99/VecKM_flow), an event-based normal flow estimator. It contains multiple functions:
 1. `SliceNormalFlowEstimator::local_events_encoding`: compute per-event features given a slice of events. The feature is computed from the spatiotemporal neighborhoods of the eventt.
