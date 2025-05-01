@@ -115,6 +115,12 @@ This is the CUDA driver I used. If it raises `Bus Error core dump`, it is most l
 
 ## Citations
 ```
+@article{yuan2025real,
+  title={A Real-Time Event-Based Normal Flow Estimator},
+  author={Yuan, Dehao and Ferm{\"u}ller, Cornelia},
+  journal={arXiv preprint arXiv:2504.19417},
+  year={2025}
+}
 ```
 
 ```
